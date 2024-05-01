@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.social {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  display: flex;
+  gap: 25px;
+  img {
+    height: 64px;
+    width: 64px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-size: 64px;
+  color: #9c6e5d;
+}
+
+.pichi {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  padding: 42px;
+  gap: 32px;
+  color: #9c6e5d;
+  h2 {
+    font-family: "neue-machina-regular", serif;
   }
-  to {
-    transform: rotate(360deg);
+  img {
+    height: auto;
+    width: 350px;
+  }
+}
+
+.link {
+  width: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #9c6e5d;
+  border-radius: 20px;
+  .url {
+    font-size: 14px;
+    padding: 0 12px;
+    font-family: "neue-machina-regular", serif;
+  }
+  button {
+    font-size: 20px;
+    width: 90px;
+    color: #f8e0b0;
+    background: #9c6e5d;
+    cursor: pointer;
+    border: 0;
+    font-family: "neue-machina-light", serif;
+    padding-bottom: 3px;
+    border-radius: 6px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+.memes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  gap: 64px;
+  img {
+    width: 210px;
+    height: 210px;
   }
 }
